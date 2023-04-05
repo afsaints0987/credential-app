@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2.5rem;
+    align-items: center;
+
+    #logo {
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+}

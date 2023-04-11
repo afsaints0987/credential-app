@@ -9,7 +9,7 @@ import Credentials from "../../pages/Credentials";
 
 const Pages: React.FC = () => {
   return (
-    <div className="container-flex p-4 col-md-9">
+    <div className="container-lg-flex p-lg-4 p-2">
       <AppRoute />
     </div>
   );

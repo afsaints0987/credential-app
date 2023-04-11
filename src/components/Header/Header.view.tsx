@@ -4,7 +4,7 @@ import * as FaIcons from 'react-icons/fa'
 
 const Header: React.FC = () => {
     return (
-        <header className="container-flex bg-primary text-light">
+        <header className="container-lg-flex bg-primary text-light">
             <span id="logo">White Label</span>
             <span id="user"><FaIcons.FaUserCircle/> User</span>
         </header>

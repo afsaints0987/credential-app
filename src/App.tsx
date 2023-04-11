@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header/>
-      <div className="row">
+      <div className="d-flex flex-row">
         <Navigation />
         <Pages/>
       </div>

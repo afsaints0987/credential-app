@@ -1,0 +1,9 @@
+#dataTable {
+    margin-left: 5rem;
+    min-width: 75vw;
+
+    @media screen and (max-width: 900px){
+        margin: 0;
+        font-size: calc(14px + 2 * ((100vw - 900px) / 680));
+    }
+}

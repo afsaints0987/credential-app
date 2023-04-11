@@ -6,7 +6,7 @@ import './Navigation.scss'
 
 const Navigation: React.FC = () => {
     return (
-        <nav id="navigation" className="col-md-3">
+        <nav id="navigation" >
             {navMenu.map((item, index) => (
                 <ul key={index} className="nav-list">
                     <span className="icon"><Link to={item.url}>{item.icon}</Link></span>

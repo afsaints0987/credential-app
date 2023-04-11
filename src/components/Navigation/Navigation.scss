@@ -3,17 +3,18 @@
     flex-direction: column;
     padding-top: 5rem;
     width: 250px;
-    min-height: 89vh;
+    min-height: 90vh;
     background-color: #f2f2f2;
     
-    @media screen and (max-width: 600px) {
-        width: 70px;
+    @media screen and (max-width: 900px) {
+        width: 50px;
     }
+    
     
     .nav-list {
         display: inherit;
         
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 900px) {
             justify-content: center;
         }
 
@@ -53,7 +54,7 @@
 
             
 
-            @media screen and (max-width: 600px){
+            @media screen and (max-width: 900px){
                 display: none;
             }
         }
